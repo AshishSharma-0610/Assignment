@@ -1,0 +1,487 @@
+body {
+  font-family: 'Clash Display', sans-serif;
+  margin: 0;
+  padding: 10px 120px;
+  background-color: #f1f1f1;
+  color: black;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Clash Display', sans-serif;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.active {
+  color: #FF5555 !important;
+}
+
+.show {
+  background-color: #FF5555;
+  color: white;
+}
+
+.logo img {
+  height: 25px;
+  margin-right: 40px;
+}
+
+.logo {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+.logo li {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  background-color: black;
+  margin-left: 10px;
+  padding: 3px 12px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  border-radius: 3px;
+}
+
+.display-texts img {
+  width: 70%;
+}
+
+.buttons {
+  display: flex;
+  padding-top: 10px;
+}
+
+.watch-button {
+  border: 0;
+  background-color: #f1f1f1;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+main img {
+  width: 100%;
+}
+
+.watch-button img {
+  height: 50%;
+  width: 15%;
+  margin-right: 20px;
+}
+
+.button {
+  background-color: black;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  border-radius: 3px;
+  color: #f1f1f1;
+}
+
+.section2 .list h6,
+h1 {
+  line-height: 0;
+}
+
+.section2 .list h6 {
+  color: #FF5555;
+
+  letter-spacing: .2rem;
+  font-weight: 400;
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  /* margin-top: -150px; */
+}
+
+.profile-list .list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-list .list h1,
+h6 {
+  /* text-align: center; */
+  margin: 0;
+}
+
+.profile-list .list h1 {
+  line-height: 2rem;
+  padding-top: .3rem;
+}
+
+.images {
+  position: relative;
+}
+
+.image1 {
+  z-index: -1;
+  width: 100%;
+}
+
+.image2 {
+  position: absolute;
+  left: 0;
+  z-index: 0;
+}
+
+.image3 {
+  position: absolute;
+  width: 30%;
+  height: 40%;
+  top: 5;
+  left: 100;
+  z-index: -10;
+}
+
+.iPhone4 {
+  z-index: 10;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 12px;
+}
+
+.menu-toggle {
+  display: none;
+  /* Hide the menu toggle initially */
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 9fr 5fr;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.display-texts p {
+  font-size: smaller;
+  padding-left: 15px;
+}
+
+.display-texts h1 {
+  padding: 0 20px;
+  font-size: 60px;
+  line-height: 3.5rem;
+}
+
+.rings {
+  /* width: 50%; */
+  height: 70%;
+  /* z-index: -1; */
+}
+
+.iPhone2 {
+  /* z-index: 1; */
+  position: absolute;
+  top: 18%;
+  right: -12%;
+  width: 80%;
+}
+
+.iPhone1 {
+  z-index: 10;
+  position: absolute;
+  top: 7%;
+  right: 0;
+  width: 85%;
+}
+
+.iPhone3 {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: -10%;
+  width: 90%;
+}
+
+.phone-images {
+  /* background-color: antiquewhite; */
+  /* flex-grow: 1; */
+  position: relative;
+}
+
+.button img {
+  width: 20px;
+  margin-left: 20px;
+}
+
+.FAQ .list {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 30px;
+}
+
+.FAQ .list h1,
+h6 {
+  line-height: 2rem;
+}
+
+.section3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 4rem;
+  margin-bottom: 9rem;
+}
+
+.section3 div {
+  border-radius: 5px;
+  padding: 8px 50px;
+}
+
+.section3 div h5 {
+  margin-top: 0;
+}
+
+.columns-list {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.columns-list .column-first .footer-header {
+  display: flex;
+  align-items: center;
+}
+
+.columns-list p {
+  font-size: 12px;
+}
+
+.columns-list h6 {
+  font-size: 20px;
+}
+
+.footer-header img {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.footer-content img {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+}
+
+.footer-input {
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: 0;
+}
+
+.footer-btn {
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: 0;
+  font-size: 12px;
+}
+
+.Copyright {
+  font-size: 12px;
+  padding: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 1);
+  margin-top: 2rem;
+}
+
+.contain-header img {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+.contain-header h6 {
+  font-size: 14px;
+}
+
+
+
+.m-4 {
+  margin-top: 40px;
+}
+
+.contain-text p {
+  margin-left: 10px;
+  font-size: 13px;
+  line-height: 1.3rem;
+  margin-top: 0;
+}
+
+.contain-header {
+  display: flex;
+  align-items: center;
+}
+
+.text-header {
+  display: flex;
+  align-items: center;
+}
+
+.text-header h5 {
+  font-size: 18px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.small-img {
+  width: 40%;
+}
+
+.text-container p {
+  margin-top: 0;
+}
+
+.text-header img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    /* Stack links vertically on small screens */
+    position: absolute;
+    top: 100%;
+    /* Position off-screen initially */
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    /* Smooth animation for opening/closing */
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .menu-toggle {
+    display: block;
+    /* Show menu toggle on small screens */
+    cursor: pointer;
+  }
+
+  .nav-links.active {
+    top: 0;
+    /* Slide down the navigation menu on click */
+  }
+}
+
+
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header.dark-mode {
+  background-color: #1e1e1e;
+}
+
+header.dark-mode .logo a,
+header.dark-mode .nav-links a {
+  color: #f1f1f1;
+}
+
+.nav-links .dark-mode-toggle {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+footer.dark-mode {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+footer.dark-mode .footer-content p {
+  color: #f1f1f1;
+}
+
+footer.dark-mode .footer-input {
+  background-color: #333;
+  color: #f1f1f1;
+}
+
+footer.dark-mode .footer-btn {
+  background-color: black;
+  color: #f1f1f1;
+}
+
+/* Rest of your CSS */
